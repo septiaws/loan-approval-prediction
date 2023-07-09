@@ -1,0 +1,139 @@
+# Path related
+dataset_path: data/raw/train.csv
+dataset_cleaned_path: data/processed/raw_dataset.pkl
+train_set_path:
+- data/processed/x_train.pkl
+- data/processed/y_train.pkl
+valid_set_path:
+- data/processed/x_valid.pkl
+- data/processed/y_valid.pkl
+test_set_path:
+- data/processed/x_test.pkl
+- data/processed/y_test.pkl
+train_feng_set_path:
+- data/processed/x_train_feng.pkl
+- data/processed/y_train_feng.pkl
+valid_feng_set_path:
+- data/processed/x_valid_feng.pkl
+- data/processed/y_valid_feng.pkl
+test_feng_set_path:
+- data/processed/x_test_feng.pkl
+- data/processed/y_test_feng.pkl
+production_model_path: models/production_model.pkl
+
+ohe_Gender_path: models/ohe_Gender.pkl
+ohe_Married_path: models/ohe_Married.pkl
+ohe_Dependents_path: models/ohe_Dependents.pkl
+ohe_Education_path: models/ohe_Education.pkl
+ohe_Self_Employed_path: models/ohe_Self_Employed.pkl
+ohe_Property_Area_path: models/ohe_Property_Area.pkl
+
+scaler_path: models/scaler.pkl
+le_path: models/label_encoder.pkl
+
+training_log_path: log/training_log.json
+
+# Debug related
+print_debug: true
+
+# Columns by data type related
+int64_columns:
+- ApplicantIncome
+
+object_columns:
+- Gender
+- Married
+- Dependents
+- Education
+- Self_Employed
+- Property_Area
+- Loan_Status
+
+float64_columns:
+- CoapplicantIncome
+- LoanAmount
+- Loan_Amount_Term
+- Credit_History
+
+# Predictors and label related
+label: Loan_Status
+predictors:
+- ApplicantIncome
+- Gender
+- Married
+- Dependents
+- Education
+- Self_Employed
+- Property_Area
+- CoapplicantIncome
+- LoanAmount
+- Loan_Amount_Term
+- Credit_History
+
+predictors_categorical:
+- Gender
+- Married
+- Dependents
+- Education
+- Self_Employed
+- Property_Area
+
+# Range of data related
+range_Gender:
+- Male
+- Female
+- Unknown
+
+range_Married:
+- 'No'
+- 'Yes'
+- 'Unknown'
+
+range_Dependents:
+- '0'
+- '1'
+- '2'
+- '3+'
+- 'Unknown'
+
+range_Education:
+- Graduate
+- Not Graduate
+
+range_Self_Employed:
+- 'No'
+- 'Yes'
+- 'Unknown'
+
+range_ApplicantIncome:
+- 0
+- 81000
+
+range_CoapplicantIncome:
+- 0.0
+- 41667.0
+
+range_LoanAmount:
+- 9.0
+- 700.0
+
+range_Loan_Amount_Term:
+- 12.0
+- 480.0
+
+range_Credit_History:
+- 0.0
+- 1.0
+
+range_Property_Area:
+- Urban
+- Rural
+- Semiurban
+
+range_Loan_Status:
+- 'Y'
+- 'N'
+
+label_categories:
+- 'Y'
+- 'N'
