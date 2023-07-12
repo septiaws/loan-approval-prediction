@@ -45,3 +45,9 @@ Memprediksi apakah pinjaman yang diajukan akan ditolak atau diterima akan dapat 
 ## Blok Diagram Modeling Data
 ![](images/modeling.png)
 
+web application
+
+**Streamlit**
+![image](https://github.com/septiaws/loan-approval-prediction/assets/119796130/c99bab51-1a9d-4448-a3db-47ac8739f359)
+
+
