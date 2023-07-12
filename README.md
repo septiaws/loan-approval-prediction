@@ -37,11 +37,11 @@ Memprediksi apakah pinjaman yang diajukan akan ditolak atau diterima akan dapat 
 ![](images/workflow.png)
 
 ## Blok Diagram Persiapan Data
-![](images/data_pipeline.png]
+![](images/data_pipeline.png)
 
 ## Blok Diagram Preprocessing & Feature Engineering
-![](images/preprocessing.png]
+![](images/preprocessing.png)
 
 ## Blok Diagram Modeling Data
-![](images/modeling.png]
+![](images/modeling.png)
 
